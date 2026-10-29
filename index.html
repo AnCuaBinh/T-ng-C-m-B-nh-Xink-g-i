@@ -193,19 +193,21 @@
 
         <div style="text-align: center; font-size: 12px; color: #888;">Made with ❤️ for you</div>
 
-        <!-- Modal 1: Nhạc (Music) -->
-        <div class="modal" id="musicModal">
-            <button class="close-btn" onclick="closeModal('musicModal')">&times;</button>
-            <div class="player-card">
-                <img src="anh1.jpg" alt="Avatar">
-                <h3>Bài Hát Của Chúng Mình</h3>
-                <p style="color: #777; font-size: 14px; margin-top: 5px;">Đang phát...</p>
-                <audio controls loop style="width: 100%; margin-top: 15px;">
-                   <source src="Chuyện Rằng.mp3" type="audio/mp3">
-                </audio>
-            </div>
-        </div>
-
+     <!-- Modal 1: Nhạc (Music) -->
+<div class="modal" id="musicModal">
+    <button class="close-btn" onclick="closeModal('musicModal')">&times;</button>
+    <div class="player-card">
+        <img src="anh1.jpg" alt="Avatar">
+        <h3>Bài Hát Của Chúng Mình</h3>
+        <p style="color: #777; font-size: 14px; margin-top: 5px;">Đang phát...</p>
+        
+        <!-- BẠN THÊM LINK NHẠC HOẶC TÊN FILE NHẠC VÀO ĐÂY -->
+        <audio controls loop style="width: 100%; margin-top: 15px;">
+            <source src="nhac.mp3" type="audio/mp3">
+            Trình duyệt của bạn không hỗ trợ audio.
+        </audio>
+    </div>
+</div>
         <!-- Modal 2: Thư tình (Letter) -->
         <div class="modal" id="letterModal">
             <button class="close-btn" onclick="closeModal('letterModal')">&times;</button>
